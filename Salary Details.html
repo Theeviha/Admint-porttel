@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Input Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-heading {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body> <ul class="nav justify-content-center bg-dark">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="Personal Information.html">Personal Information</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Job Information.html"> Job Information
+    </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Educational Qualifications.html"> Qualifications</a>
+    </li>
+
+     <li class="nav-item">
+      <a class="nav-link" href="Salary Details.html">Salary Details</a>
+    </li>
+  </ul>
+<div class="container mt-5">
+    <h2 class="section-heading">Salary Details</h2>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Base Salary</label>
+            <input type="text" class="form-control" placeholder="Base Salary" aria-label="Base Salary" name="Base Salary" id="Base Salary">
+        </div>
+        <div class="col">
+            <label class="form-label">Bonuses/Commissions</label>
+            <input type="text" class="form-control" placeholder="Bonuses/Commissions" aria-label="Bonuses/Commissions" name="Bonuses/Commissions" id="Bonuses/Commissions">
+        </div>
+    </div>
+
+    <h2 class="section-heading">Benefits</h2>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Health Insurance Details</label>
+            <input type="text" class="form-control" placeholder="Health Insurance Details" aria-label="Health Insurance Details" name="Health Insurance Details" id="Health Insurance Details">
+        </div>
+        <div class="col">
+            <label class="form-label">Life Insurance Details</label>
+            <input type="text" class="form-control" placeholder="Life Insurance Details" aria-label="Life Insurance Details" name="Life Insurance Details" id="Life Insurance Details">
+        </div>
+    </div>
+
+    <h2 class="section-heading">Bank Account Details</h2>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Bank Name<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" placeholder="Bank Name" aria-label="Bank Name" name="Bank Name" id="Bank Name">
+        </div>
+        <div class="col">
+            <label class="form-label">Account Number<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" placeholder="Account Number" aria-label="Account Number" name="Account Number" id="Account Number">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Account Type<span style="color: red;">*</span></label>
+            <select class="form-select" aria-label="Account Type" name="Account Type" id="Account Type">
+                <option selected disabled>Account Type</option>
+                <option value="Savings">Savings</option>
+                <option value="Checking">Checking</option>
+            </select>
+        </div>
+        <div class="col">
+            <label class="form-label">Secondary Bank Name</label>
+            <input type="text" class="form-control" placeholder="Secondary Bank Name" aria-label="Secondary Bank Name" name="Secondary Bank Name" id="Secondary Bank Name">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Secondary Account Number</label>
+            <input type="text" class="form-control" placeholder="Secondary Account Number" aria-label="Secondary Account Number" name="Secondary Account Number" id="Secondary Account Number">
+        </div>
+        <div class="col">
+            <label class="form-label">Secondary Account </label>
+            <select class="form-select" aria-label="Secondary Account Type" name="Secondary Account Type" id="Secondary Account Type">
+                <option selected disabled>Secondary Account Type</option>
+                <option value="Savings">Savings</option>
+                <option value="Checking">Checking</option>
+            </select>
+        </div>
+    </div>
+
+    <h2 class="section-heading">Tax Information</h2>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Tax Identification Number</label>
+            <input type="text" class="form-control" placeholder="Tax Identification Number" aria-label="Tax Identification Number" name="Tax Identification Number" id="Tax Identification Number">
+        </div>
+        <div class="col">
+            <label class="form-label">Filing Status</label>
+            <input type="text" class="form-control" placeholder="Filing Status" aria-label="Filing Status" name="Filing Status" id="Filing Status">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">PAN Number</label> 
+            <input type="text" class="form-control" placeholder="PAN Number" aria-label="PAN Number" name="PAN Number" id="PAN Number">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col">
+            <div class="form-group">
+                <label for="comment">Post Request</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+        </div>
+    </div>
+    <div class="col-12 d">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      
+</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+</div>
+</form>
+</div>
+</body>
+</html>

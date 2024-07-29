@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Input Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-heading {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul class="nav justify-content-center bg-dark " >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Personal Information.html">Personal Information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Job Information.html"> Job Information
+        </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Educational Qualifications.html"> Qualifications</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="Salary Details.html">Salary Details</a>
+        </li>
+      </ul>
+<div class="container mt-5">
+    <h2 class="section-heading">Job Information</h2>
+    <div class="row mb-3">
+        <div class="col"> 
+            <label class="form-label">Employee ID<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" placeholder="Employee ID" aria-label="Employee ID" name="Employee ID" id="Employee ID">
+        </div>
+        <div class="col">
+            <label class="form-label">Job Title<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" placeholder="Job Title" aria-label="Job Title" name="Job Title" id="Job Title">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Department<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" placeholder="Department" aria-label="Department" name="Department" id="Department">
+        </div>
+        <div class="col">
+            <label class="form-label">Date of Joining<span style="color: red;">*</span></label>
+            <input type="date" class="form-control" placeholder="Date of Joining" aria-label="Date of Joining" name="Date of Joining" id="Date of Joining">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Employment Type<span style="color: red;">*</span></label>
+            <select class="form-select" aria-label="Employment Type" name="Employment Type" id="Employment Type">
+                <option selected disabled>Employment Type</option>
+                <option value="Full-time">Full-time</option>
+                <option value="Part-time">Part-time</option>
+                <option value="Contract">Contract</option>
+                <option value="Intern">Intern</option>
+            </select>
+        </div>
+        <div class="col">
+            <label class="form-label">Work Location</label>
+            <input type="text" class="form-control" placeholder="Work Location" aria-label="Work Location" name="Work Location" id="Work Location">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Office Address</label>
+           <input type="text" class="form-control" placeholder="Office Address" aria-label="Office Address" name="Office Address" id="Office Address">
+        </div>
+        <div class="col">
+            <label class="form-label">Remote Work Details<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" placeholder="Remote Work Details (if applicable)" aria-label="Remote Work Details" name="Remote Work Details" id="Remote Work Details">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Reporting Person</label>
+            <input type="text" class="form-control" placeholder="Reporting Person" aria-label="Reporting Person" name="Reporting Person" id="Reporting Person">
+        </div>
+        <div class="col">
+            <label class="form-label">Work Schedule</label>
+            <input type="text" class="form-control" placeholder="Work Schedule" aria-label="Work Schedule" name="Work Schedule" id="Work Schedule">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label class="form-label">Work Hours</label>
+            <input type="text" class="form-control" placeholder="Work Hours" aria-label="Work Hours" name="Work Hours"idWork Hours>
+        </div>
+        <div class="col">
+            <label class="form-label">Shift Details</label>
+            <input type="text" class="form-control" placeholder="Shift Details (if applicable)" aria-label="Shift Details" name="Shift Details" id="Shift Details">
+        </div>
+    </div>
+    <div class="col-12 d">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+</div>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>

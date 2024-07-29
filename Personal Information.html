@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Input Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-heading {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul class="nav justify-content-center bg-dark">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Personal Information.html">Personal Information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Job Information.html"> Job Information
+        </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Educational Qualifications.html"> Qualifications</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="Salary Details.html">Salary Details</a>
+        </li>
+      </ul>
+<div class="container mt-5">
+    <h1 class="section-heading">Personal Information</h1>
+    <form>
+        <div class="row mb-3">
+            <div class="col">
+
+                <label class="form-label">Full Name<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" name="Full Name" id="Full Name">
+            </div>
+            <div class="col">
+                <label class="form-label">Date of Birth<span style="color: red;">*</span></label>
+                <input type="date" class="form-control" placeholder="Date of Birth" aria-label="Date of Birth" Name="Date of Birth" id="Date of Birth">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Gender<span style="color: red;">*</span></label>
+                <select class="form-select" aria-label="Gender" name="Gender" id="Gender">
+                    <option selected disabled>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="col">
+                <label class="form-label">Nationality<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Nationality" aria-label="Nationality" name="Nationality" id="Nationality">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <select class="form-select" aria-label="Marital Status" name="Marital Status" id="Marital Status">
+                    <option selected disabled>Marital Status</option>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+            </div>
+            <div class="col">
+                <label class="form-label">Home Address<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Home Address" aria-label="Home Address" name="Home Address" id="Home Address">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Street Address<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Street Address" aria-label="Street Address" name="Street Address" id="Street Address">
+            </div>
+            <div class="col">
+                <label class="form-label">City<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="City" aria-label="City" name="City" id="City">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Street Province<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="State/Province" aria-label="State/Province" name="State/Province" id="State/Province">
+            </div>
+            <div class="col">
+                <label class="form-label">Zip/Postal Code<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Zip/Postal Code" aria-label="Zip/Postal Code" name="Zip/Postal Code" id="Zip/Postal Code">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Country<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Country" aria-label="Country" name="Country" id="Country">
+            </div>
+            <div class="col">
+                <label class="form-label">Primary Phone Number<span style="color: red;">*</span></label>
+                <input type="tel" class="form-control" placeholder="Primary Phone Number" aria-label="Primary Phone Number" name="Primary Phone Number" id="Primary Phone Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Secondary Phone Number<span style="color: red;">*</span></label>
+                <input type="tel" class="form-control" placeholder="Secondary Phone Number" aria-label="Secondary Phone Number" name="Secondary Phone Number" id="Secondary Phone Number">
+            </div>
+            <div class="col">
+                <label class="form-label">Personal Email Address<span style="color: red;">*</span></label>
+                <input type="email" class="form-control" placeholder="Personal Email Address" aria-label="Personal Email Address" name="Personal Email Address" id="Personal Email Address">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">National ID Number<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="National ID Number" aria-label="National ID Number" name="National ID Number" id="National ID Number">
+            </div>
+            <div class="col">
+                <label class="form-label">Passport Number<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Passport Number (if applicable)" aria-label="Passport Number" name="Passport Number" id="Passport Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Driver's License Number</label>
+                <input type="text" class="form-control" placeholder="Driver's License Number (if applicable)" aria-label="Driver's License Number" name="Driver's License Number" id="Driver's License Number">
+            </div>
+        </div>
+
+        <h2 class="section-heading">Emergency Contact Information</h2>
+        <h3 class="section-heading">Primary Emergency Contact</h3>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Full Name<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" name="Full Name" id="Full Name">
+            </div>
+            <div class="col">
+                <label class="form-label">Relationship</label>
+                <input type="text" class="form-control" placeholder="Relationship" aria-label="Relationship" name="Relationship" id="Relationship">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Contact Number<span style="color: red;">*</span></label>
+                <input type="tel" class="form-control" placeholder="Contact Number" aria-label="Contact Number" name="Contact Number" id="Contact Number">
+            </div>
+            <div class="col">
+                <label class="form-label">Alternate Contact Number<span style="color: red;">*</span></label>
+                <input type="tel" class="form-control" placeholder="Alternate Contact Number" aria-label="Alternate Contact Number" name="Alternate Contact Number" id="Alternate Contact Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Address<span style="color: red;">*</span></label>
+                <input type="text" class="form-control" placeholder="Address" aria-label="Address" name="Address" id="Address">
+            </div>
+        </div>
+
+        <h3 class="section-heading">Secondary Emergency Contact</h3>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" name="Full Name" id="Full Name">
+            </div>
+            <div class="col">
+                <label class="form-label">Relationship</label>
+                <input type="text" class="form-control" placeholder="Relationship" aria-label="Relationship" name="Relationship" id="Relationship">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <label class="form-label">Contact Number</label>
+                <input type="tel" class="form-control" placeholder="Contact Number" aria-label="Contact Number" name="Contact Number" id="Contact Number">
+            </div>
+            <div class="col"> 
+                <label class="form-label">Alternate Contact Number</label>
+                <input type="tel" class="form-control" placeholder="Alternate Contact Number" aria-label="Alternate Contact Number" name="Alternate Contact Number" id="Alternate Contact Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col"> 
+                <label class="form-label">Address</label>
+                <input type="text" class="form-control" placeholder="Address" aria-label="Address" name="Address" id="Address">
+            </div>
+        </div>
+
+        
+        <div class="col-12 d">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
